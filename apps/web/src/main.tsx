@@ -1,8 +1,7 @@
-import React from "react";
+import { Counter, Header } from "@7ools/ui";
 import { createRoot } from "react-dom/client";
 import "./style.css";
 import typescriptLogo from "/typescript.svg";
-import { Header, Counter } from "@repo/ui";
 
 const App = () => (
   <div>
@@ -16,6 +15,7 @@ const App = () => (
         alt="TypeScript logo"
       />
     </a>
+    <span className="text-gray-400">Test Tailwind</span>
     <Header title="Web" />
     <div className="card">
       <Counter />
